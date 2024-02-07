@@ -561,22 +561,21 @@
             ></textarea>
           </div>
 
-          <div class="checkbox-form">
+          <div class="div-checkbox">
             <input
+              class="checkbox visually-hidden"
               type="checkbox"
-              class="checkbox-form visually-hidden"
-              name="checkbox-privacy"
-              id="checkbox-privacy"
-              required
+              name="user-privacy"
+              value="true"
+              id="user-privacy"
             />
-            <label for="user-privacy" class="checkbox-text">
-              <span class="custom-checkbox">
-                <svg class="checkbox-svg" width="10" height="8">
+            <label class="label-checkbox" for="user-privacy">
+              <span class="span-checkbox">
+                <svg class="icon-checkbox" width="10" height="8">
                   <use href="./images/icons.svg#icon-checkbox"></use>
-                </svg>
-              </span>
-              I accept the terms and conditions of the
-              <a href="" class="checkbox-privacy-link">Privacy Policy</a>
+                </svg> </span
+              >I accept the terms and conditions of the
+              <a class="privacy-policy" href="#">Privacy Policy</a>
             </label>
           </div>
           <button class="form-btn" type="submit">Send</button>
