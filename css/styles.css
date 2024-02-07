@@ -522,11 +522,6 @@ img {
   fill: #ffffff;
 }
 
-.popup-close {
-  display: flex;
-  justify-content: flex-end;
-}
-
 .popup-close-svg {
   fill: #2e2f42;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -580,11 +575,8 @@ img {
   fill: #4d5ae5;
 }
 
-.popup-form-block {
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
-  margin-bottom: 5px;
+.form-container {
+  margin-bottom: 8px;
 }
 
 .textarea-form {
@@ -602,6 +594,10 @@ img {
 
 .textarea-form:focus {
   border-color: #4d5ae5;
+}
+
+.textarea-container {
+  margin-bottom: 5px;
 }
 
 .textarea-form::placeholder {
@@ -636,7 +632,6 @@ img {
   border-radius: 2px;
   display: inline-flex;
   fill: transparent;
-
   width: 16px;
   height: 16px;
   align-items: center;

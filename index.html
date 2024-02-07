@@ -495,16 +495,15 @@
     <!-- ----------------------------->
     <div class="backdrop is-open">
       <div class="popup">
-        <div class="popup-close">
-          <button type="button" class="popup-close-btn">
-            <svg class="popup-close-svg" width="8" height="8">
-              <use href="./images/icons.svg#icon-close"></use>
-            </svg>
-          </button>
-        </div>
+        <button type="button" class="popup-close-btn">
+          <svg class="popup-close-svg" width="8" height="8">
+            <use href="./images/icons.svg#icon-close"></use>
+          </svg>
+        </button>
+
         <p class="popup-title">Leave your contacts and we will call you back</p>
         <form class="popup-form" autocomplete="off">
-          <div class="popup-form-block">
+          <div class="form-container">
             <label class="form-label" for="user-name">Name</label>
             <div class="form-input-block">
               <input
@@ -518,7 +517,9 @@
                 <use href="./images/icons.svg#icon-name"></use>
               </svg>
             </div>
+          </div>
 
+          <div class="form-container">
             <label class="form-label" for="user-phone">Phone</label>
             <div class="form-input-block">
               <input
@@ -532,7 +533,9 @@
                 <use href="./images/icons.svg#icon-phone"></use>
               </svg>
             </div>
+          </div>
 
+          <div class="form-container">
             <label class="form-label" for="user-email">Email</label>
             <div class="form-input-block">
               <input
@@ -546,7 +549,9 @@
                 <use href="./images/icons.svg#icon-email"></use>
               </svg>
             </div>
+          </div>
 
+          <div class="textarea-container">
             <label class="form-label" for="user-comment">Comment</label>
             <textarea
               class="textarea-form"
@@ -555,6 +560,7 @@
               placeholder="Text input"
             ></textarea>
           </div>
+
           <div class="checkbox-form">
             <input
               type="checkbox"
